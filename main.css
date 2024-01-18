@@ -30,9 +30,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 18px;
 }
 
 .emoji {
     display: flex;
     flex-direction: column;
+}
+
+.icon {
+    align-self: center;
+    order: -1;
 }
